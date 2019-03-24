@@ -27,8 +27,8 @@
 		6E3F354E2248022B00423E67 /* URLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F354B2248022B00423E67 /* URLModel.swift */; };
 		6E3F354F2248022B00423E67 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F354C2248022B00423E67 /* UserModel.swift */; };
 		6E3F35522248024600423E67 /* CardCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3F35512248024600423E67 /* CardCellDelegate.swift */; };
-		6E3F358A224808DF00423E67 /* UniversalLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3F35872248089300423E67 /* UniversalLoader.framework */; };
-		6E3F358B224808DF00423E67 /* UniversalLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3F35872248089300423E67 /* UniversalLoader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6E3F35992248105E00423E67 /* UniversalLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3F35962248104800423E67 /* UniversalLoader.framework */; };
+		6E3F359A2248105E00423E67 /* UniversalLoader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3F35962248104800423E67 /* UniversalLoader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,23 +39,23 @@
 			remoteGlobalIDString = 6E3F350A224800E500423E67;
 			remoteInfo = ExampleLoader;
 		};
-		6E3F35862248089300423E67 /* PBXContainerItemProxy */ = {
+		6E3F35952248104800423E67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E3F35802248089200423E67 /* UniversalLoader.xcodeproj */;
+			containerPortal = 6E3F358F2248104600423E67 /* UniversalLoader.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6E3F342D2247EBBE00423E67;
 			remoteInfo = UniversalLoader;
 		};
-		6E3F35882248089300423E67 /* PBXContainerItemProxy */ = {
+		6E3F35972248104800423E67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E3F35802248089200423E67 /* UniversalLoader.xcodeproj */;
+			containerPortal = 6E3F358F2248104600423E67 /* UniversalLoader.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 6E3F34362247EBBE00423E67;
 			remoteInfo = UniversalLoaderTests;
 		};
-		6E3F358C224808DF00423E67 /* PBXContainerItemProxy */ = {
+		6E3F359B2248105E00423E67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E3F35802248089200423E67 /* UniversalLoader.xcodeproj */;
+			containerPortal = 6E3F358F2248104600423E67 /* UniversalLoader.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E3F342C2247EBBE00423E67;
 			remoteInfo = UniversalLoader;
@@ -69,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6E3F358B224808DF00423E67 /* UniversalLoader.framework in Embed Frameworks */,
+				6E3F359A2248105E00423E67 /* UniversalLoader.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +101,7 @@
 		6E3F354B2248022B00423E67 /* URLModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLModel.swift; sourceTree = "<group>"; };
 		6E3F354C2248022B00423E67 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		6E3F35512248024600423E67 /* CardCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCellDelegate.swift; sourceTree = "<group>"; };
-		6E3F35802248089200423E67 /* UniversalLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniversalLoader.xcodeproj; path = ../UniversalLoader/UniversalLoader.xcodeproj; sourceTree = "<group>"; };
+		6E3F358F2248104600423E67 /* UniversalLoader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UniversalLoader.xcodeproj; path = UniversalLoader/UniversalLoader.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E3F358A224808DF00423E67 /* UniversalLoader.framework in Frameworks */,
+				6E3F35992248105E00423E67 /* UniversalLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 		6E3F3502224800E500423E67 = {
 			isa = PBXGroup;
 			children = (
-				6E3F35802248089200423E67 /* UniversalLoader.xcodeproj */,
+				6E3F358F2248104600423E67 /* UniversalLoader.xcodeproj */,
 				6E3F350D224800E500423E67 /* ExampleLoader */,
 				6E3F3522224800E600423E67 /* ExampleLoaderTests */,
 				6E3F350C224800E500423E67 /* Products */,
@@ -234,11 +234,11 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		6E3F35812248089200423E67 /* Products */ = {
+		6E3F35902248104600423E67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E3F35872248089300423E67 /* UniversalLoader.framework */,
-				6E3F35892248089300423E67 /* UniversalLoaderTests.xctest */,
+				6E3F35962248104800423E67 /* UniversalLoader.framework */,
+				6E3F35982248104800423E67 /* UniversalLoaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6E3F358D224808DF00423E67 /* PBXTargetDependency */,
+				6E3F359C2248105E00423E67 /* PBXTargetDependency */,
 			);
 			name = ExampleLoader;
 			productName = ExampleLoader;
@@ -315,8 +315,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6E3F35812248089200423E67 /* Products */;
-					ProjectRef = 6E3F35802248089200423E67 /* UniversalLoader.xcodeproj */;
+					ProductGroup = 6E3F35902248104600423E67 /* Products */;
+					ProjectRef = 6E3F358F2248104600423E67 /* UniversalLoader.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -328,18 +328,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6E3F35872248089300423E67 /* UniversalLoader.framework */ = {
+		6E3F35962248104800423E67 /* UniversalLoader.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UniversalLoader.framework;
-			remoteRef = 6E3F35862248089300423E67 /* PBXContainerItemProxy */;
+			remoteRef = 6E3F35952248104800423E67 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6E3F35892248089300423E67 /* UniversalLoaderTests.xctest */ = {
+		6E3F35982248104800423E67 /* UniversalLoaderTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = UniversalLoaderTests.xctest;
-			remoteRef = 6E3F35882248089300423E67 /* PBXContainerItemProxy */;
+			remoteRef = 6E3F35972248104800423E67 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -404,10 +404,10 @@
 			target = 6E3F350A224800E500423E67 /* ExampleLoader */;
 			targetProxy = 6E3F3520224800E600423E67 /* PBXContainerItemProxy */;
 		};
-		6E3F358D224808DF00423E67 /* PBXTargetDependency */ = {
+		6E3F359C2248105E00423E67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UniversalLoader;
-			targetProxy = 6E3F358C224808DF00423E67 /* PBXContainerItemProxy */;
+			targetProxy = 6E3F359B2248105E00423E67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
